@@ -1,0 +1,312 @@
+body {
+  color: white;
+  background: rgb(237, 237, 237);
+  font-family: arial;
+  margin: 0;
+}
+
+
+
+
+.projPics {
+  width: 52%;
+  margin: 0 24%;
+}
+
+span li {
+  text-align:center;
+  margin: 2%;
+}
+
+#header {
+  padding: 7%;
+  width: 144%;
+  margin: -33% 0% 0 -28%;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, .1);
+  height: fit-content;
+  background: rgb(79, 79, 79);
+}
+
+#dev {
+  color: black;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 46px;
+  margin: 0;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+main {
+  margin: 5% 27% 0% 27%;
+  z-index: 0;
+  padding: 10% 1% 10% 1%;
+  background: white;
+  color: black;
+  box-shadow: 6px 5px 5px rgb(0, 0, 0, .1);
+  display: inline-flex;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+
+#h2Div {
+  background: grey;
+  margin-top: 0px;
+  padding: 1px;
+  z-index: 0;
+}
+
+.sidepane {
+  position: fixed;
+  z-index: 2;
+  padding: 5px;
+  background: rgb(79, 79, 79);
+  box-shadow: 5px 3px 5px rgb(0, 0, 0, .2);
+  width: 16%;
+  height: 97%;
+  list-style-type: none;
+  color: lightgray;
+  text-align: center;
+}
+.sidepane h3 {
+  color: white;
+}
+
+.lineDivider {
+  background: lightcyan;
+  height: 1;
+  margin: 11%;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  line-height: 0;
+}
+
+#container {
+  width: 60%;
+  margin: auto;
+}
+
+li {
+  font-size: 85%;
+  word-break: break-word;
+  list-style: none;
+}
+
+.sidepane #selfie {
+  margin: 3% 4% 0 0;
+  width: 64%;
+}
+
+.sidepane > .socialIcon {
+  width: 24%;
+  margin-right: 0;
+}
+
+
+.skillDiv {
+  vertical-align: middle;
+  width: 31%;
+  display: inline-block;
+  color: rgb(255, 255, 255, 0);
+  margin: 0px 0 -7% 0;
+}
+
+.blackout:hover {
+  filter: blur(2px) brightness(.5);
+}
+
+
+.spin {
+  -webkit-animation: rotation 50s infinite linear;
+}
+
+.spin:hover {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+.wiggle:hover {
+  -webkit-animation-name: wiggle;
+  -ms-animation-name: wiggle;
+  -ms-animation-duration: 1000ms;
+  -webkit-animation-duration: 1000ms;
+  -webkit-animation-iteration-count: 1;
+  -ms-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in-out;
+  -ms-animation-timing-function: ease-in-out;
+}
+
+.socialIcon img {
+  -webkit-animation-name: rwiggle;
+  -ms-animation-name: rwiggle;
+  -ms-animation-duration: 8000ms;
+  -webkit-animation-duration: 8000ms;
+  -webkit-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out
+  -ms-animation-timing-function: ease-in-out;
+}
+
+@-webkit-keyframes rwiggle {
+  85% {transform: rotate(0deg);}
+  92% {transform: rotate(10deg);}
+  94% {transform: rotate(-10deg);}
+  96% {transform: rotate(20deg);}
+  98% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@-ms-keyframes rwiggle {
+  85% {transform: rotate(0deg);}
+  92% {transform: rotate(10deg);}
+  94% {transform: rotate(-10deg);}
+  96% {transform: rotate(20deg);}
+  98% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@keyframes rwiggle {
+  85% {transform: rotate(0deg);}
+  92% {transform: rotate(10deg);}
+  94% {transform: rotate(-10deg);}
+  96% {transform: rotate(20deg);}
+  98% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes wiggle {
+  0% {-webkit-transform: rotate(10deg);}
+  25% {-webkit-transform: rotate(-10deg);}
+  50% {-webkit-transform: rotate(20deg);}
+  75% {-webkit-transform: rotate(-5deg);}
+  100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+  0% {-ms-transform: rotate(1deg);}
+  25% {-ms-transform: rotate(-1deg);}
+  50% {-ms-transform: rotate(1.5deg);}
+  75% {-ms-transform: rotate(-5deg);}
+  100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+  50% {transform: rotate(20deg);}
+  75% {transform: rotate(-5deg);}
+  100% {transform: rotate(0deg);}
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+.skillDiv:hover {
+  color: rgb(255, 255, 255, 1);
+}
+
+.skillicons {
+  width: 100%;
+  padding: 0 0 0 0;
+}
+
+#JS {
+  width: 149%;
+  margin: -5% 0 0 -26%;
+}
+
+#sidepane>h3 {
+  color: currentColor;
+}
+
+.row {
+  height: 5%;
+  display: flex;
+}
+
+.skillHolder {
+  position: fixed;
+  z-index: 2;
+  margin: 0% 0% 0% 83.5%;
+  background: rgb(79, 79, 79);
+  box-shadow: 5px 3px 5px rgb(0, 0, 0, .2);
+  width: 15%;
+  list-style-type: none;
+  color: lightgray;
+  line-height: 0px;
+}
+
+#REACT {
+  width: 172%;
+  padding: 0 0%;
+  margin: 0% -33%;
+}
+
+#RAILS {
+  width: 78%;
+  margin: 0 11%;
+}
+
+#HERO {
+  width: 71%;
+  margin: 12%;
+}
+
+h5 {
+  margin-top: -61%;
+  margin-bottom: 88%;
+  text-align: center;
+  width: 100%;
+  filter: blur(0px);
+  z-index: auto;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;          /* Likely future */
+  pointer-events: none;
+}
+
+.socialIcon {
+  display: inline-block;
+}
+
+.socialIcon img {
+  width: 77%;
+  margin: 0% 0% 40% 0%;
+}
+
+@media only screen and (max-width: 700px) {
+    #header {
+      z-index: 8;
+      position: absolute;
+      top: 115px;
+      width:100%;
+      background: slategray;
+    }
+    #selfie {
+      padding-top: 156px;
+    }
+    .sidepane {
+      width: 100%;
+      margin: 0;
+      position: relative;
+      height: fit-content;
+      }
+    main {
+      margin: 0;
+    }
+}
