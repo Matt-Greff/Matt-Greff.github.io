@@ -5,9 +5,6 @@ body {
   margin: 0;
 }
 
-
-
-
 .projPics {
   width: 52%;
   margin: 0 24%;
@@ -35,7 +32,7 @@ span li {
 h1 {
   color: white;
   font-weight: bold;
-  font-size: 46px;
+  font-size: 50px;
   margin: 0;
   text-align: center;
 }
@@ -60,6 +57,7 @@ main {
   margin-top: 0px;
   padding: 1px;
   z-index: 0;
+  width: 100%;
 }
 
 .sidepane {
@@ -73,6 +71,7 @@ main {
   list-style-type: none;
   color: lightgray;
   text-align: center;
+  margin: .5%;
 }
 .sidepane h3 {
   color: white;
@@ -126,7 +125,7 @@ li {
 
 
 .spin {
-  -webkit-animation: rotation 50s infinite linear;
+  -webkit-animation: rotation 7s infinite linear;
 }
 
 .spin:hover {
@@ -241,7 +240,7 @@ li {
 .skillHolder {
   position: fixed;
   z-index: 2;
-  margin: 0% 0% 0% 83.5%;
+  margin: .5% 0% 0% 84%;
   background: rgb(79, 79, 79);
   box-shadow: 5px 3px 5px rgb(0, 0, 0, .2);
   width: 15%;
@@ -289,13 +288,29 @@ h5 {
   margin: 0% 0% 40% 0%;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1400px){
+  main {
+    width: 80%;
+    margin:;
+  }
+  #container {
+    width: 75%
+  }
+
+}
+
+@media only screen and (max-width: 1000px) {
     #header {
-      z-index: 8;
-      position: absolute;
-      top: 115px;
-      width:100%;
-      background: slategray;
+    left: 0;
+    z-index: 8;
+    position: absolute;
+    top: 0px;
+    width: 89%;
+    margin: 0;
+    background: slategray;
+    }
+    h1 {
+      font-size: 40px;
     }
     #selfie {
       padding-top: 156px;
@@ -306,7 +321,34 @@ h5 {
       position: relative;
       height: fit-content;
       }
+    .skillicons  {
+      width: 75%
+    }
+    #JS {
+      width: 114%;
+      margin-top: -3%;
+      margin-left: -9%
+    }
+    #RAILS {
+      width: 70%
+    }
+    #REACT {
+      width: 150%
+    }
+    #HERO {
+      width: 50%
+    }
+    #PHOTO {
+      width: 68%
+    }
+    #ILLU {
+      width: 68%
+    }
+    #container {
+      width: 90%;
+    }
     main {
       margin: 0;
+      width: 100%;
     }
 }
