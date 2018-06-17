@@ -4,6 +4,7 @@ body {
   font-family: arial;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 ::-webkit-scrollbar { 
@@ -49,12 +50,11 @@ h3 {
 main {
   margin: 5% 27% 0% 27%;
   z-index: 0;
-  padding: 10% 1% 10% 1%;
+  padding: 10% 0% 10% 0%;
   background: white;
   color: black;
   box-shadow: 6px 5px 5px rgb(0, 0, 0, .1);
   display: inline-flex;
-  border: 1px solid rgb(0, 0, 0, 0.1);
 }
 
 #h2Div {
@@ -77,7 +77,6 @@ main {
   list-style-type: none;
   color: lightgray;
   text-align: center;
-  margin: .5%;
 }
 .sidepane h3 {
   color: white;
@@ -113,7 +112,6 @@ li {
 
 .sidepane > .socialIcon {
   width: 24%;
-  margin-right: 0;
 }
 
 
@@ -296,8 +294,8 @@ h5 {
 
 @media only screen and (max-width: 1400px){
   main {
-    width: 63%;
-    margin: 1% 18% 0 18%;
+    width: 65%;
+    margin: 1% 0 0 18%;
   }
   #header {
     margin: -100px -100px 0 -100px;
@@ -306,30 +304,43 @@ h5 {
 }
 
 @media only screen and (max-width: 1000px) {
+
     #header {
     left: 0px;
     z-index: 8;
     position: absolute;
     top: 0px;
-    width: 106%;
+    width: 100%;
     margin: 0;
     background: slategray;
-    padding: 50px 0;
+    padding: 20px 0;
     }
     h1 {
       font-size: 40px;
     }
     #selfie {
-      margin: 250px 25% 60px;
-      width: 50%;
+      margin: 150px 0px 0;
+      width: 19%;
+    }
+    .sidepane .socialIcon {
+      W;
+      width: 58%;
+      display: inline;
+    }
+    .socialIcon img {
+      width: 21%;
+      margin: 0px 0px 0% 6%;
     }
     .sidepane {
-      width: 102%;
+      width: 100%;
       margin: 0;
       position: relative;
-      height: fit-content;
-      padding: 1px;
+      height: 60%;
+      padding: 0;
       }
+    .skillHolder {
+      height: 25%
+    }
     .skillicons  {
       width: 75%
     }
