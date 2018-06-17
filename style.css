@@ -337,6 +337,8 @@ h5 {
       position: relative;
       height: 60%;
       padding: 0;
+      border: solid 1px slategray;
+      box-sizing:  border-box;
       }
     .skillHolder {
       height: 25%
