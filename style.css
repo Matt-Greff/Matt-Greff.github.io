@@ -3,6 +3,11 @@ body {
   background: rgb(237, 237, 237);
   font-family: arial;
   margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
 }
 
 .projPics {
@@ -61,6 +66,7 @@ main {
 }
 
 .sidepane {
+  overflow: scroll;
   position: fixed;
   z-index: 2;
   padding: 5px;
@@ -100,9 +106,9 @@ li {
   list-style: none;
 }
 
-.sidepane #selfie {
-  margin: 3% 4% 0 0;
-  width: 64%;
+#selfie {
+  margin: 6% 6% 6% 0;
+  width: 50%;
 }
 
 .sidepane > .socialIcon {
@@ -290,36 +296,39 @@ h5 {
 
 @media only screen and (max-width: 1400px){
   main {
-    width: 80%;
-    margin:;
+    width: 63%;
+    margin: 1% 18% 0 18%;
   }
-  #container {
-    width: 75%
+  #header {
+    margin: -100px -100px 0 -100px;
+    width: 125%;
   }
-
 }
 
 @media only screen and (max-width: 1000px) {
     #header {
-    left: 0;
+    left: 0px;
     z-index: 8;
     position: absolute;
     top: 0px;
-    width: 89%;
+    width: 106%;
     margin: 0;
     background: slategray;
+    padding: 50px 0;
     }
     h1 {
       font-size: 40px;
     }
     #selfie {
-      padding-top: 156px;
+      margin: 250px 25% 60px;
+      width: 50%;
     }
     .sidepane {
-      width: 100%;
+      width: 102%;
       margin: 0;
       position: relative;
       height: fit-content;
+      padding: 1px;
       }
     .skillicons  {
       width: 75%
