@@ -11,9 +11,8 @@ body {
     display: none; 
 }
 
-.projPics {
-  width: 52%;
-  margin: 0 24%;
+.proj-ref-icon {
+  height: 17px;
 }
 
 span li {
@@ -51,7 +50,7 @@ main {
   width: 46%;
   margin: 5% 27% 0% 27%;
   z-index: 0;
-  padding: 0% 0% 5% 0%;
+  padding: 0%;
   background: white;
   color: black;
   box-shadow: 6px 5px 5px rgb(0, 0, 0, .1);
@@ -102,7 +101,6 @@ h2 {
 }
 
 #sub-container {
-  padding: 2%;
   width: 48%
 }
 
@@ -128,14 +126,29 @@ li {
 .sidepane > .socialIcon {
   width: 24%;
 }
-
+#all-skills {
+  background: rgb(79, 79, 79);
+  display: flex;
+  justify-content: space-around;
+  padding: 1%;
+  width: 98%;
+  height: 5%;
+}
 
 .skillDiv {
-  vertical-align: middle;
-  width: 31%;
-  display: inline-block;
   color: rgb(255, 255, 255, 0);
-  margin: 0px 0 -7% 0;
+  height: 100%;
+  width: 40px;
+}
+
+.skillicons {
+  padding: 0;
+  height: 100%;
+
+}
+
+#sidepane>h3 {
+  color: currentColor;
 }
 
 .blackout:hover {
@@ -169,7 +182,7 @@ li {
   -webkit-animation-duration: 8000ms;
   -webkit-animation-iteration-count: infinite;
   -ms-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: ease-in-out
+  -webkit-animation-timing-function: ease-in-out;
   -ms-animation-timing-function: ease-in-out;
 }
 
@@ -237,20 +250,6 @@ li {
   color: rgb(255, 255, 255, 1);
 }
 
-.skillicons {
-  width: 100%;
-  padding: 0 0 0 0;
-}
-
-#JS {
-  width: 149%;
-  margin: -5% 0 0 -26%;
-}
-
-#sidepane>h3 {
-  color: currentColor;
-}
-
 .row {
   height: 5%;
   display: flex;
@@ -268,21 +267,7 @@ li {
   line-height: 0px;
 }
 
-#REACT {
-  width: 172%;
-  padding: 0 0%;
-  margin: 0% -33%;
-}
 
-#RAILS {
-  width: 78%;
-  margin: 0 11%;
-}
-
-#HERO {
-  width: 71%;
-  margin: 12%;
-}
 
 h5 {
   margin-top: -61%;
@@ -338,7 +323,6 @@ h5 {
       width: 19%;
     }
     .sidepane .socialIcon {
-      W;
       width: 58%;
       display: inline;
     }
