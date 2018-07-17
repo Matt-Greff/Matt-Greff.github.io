@@ -22,9 +22,9 @@ span li {
 }
 
 #header {
-  padding: 7%;
-  width: 144%;
-  margin: -32% 29% 0 -29%;
+  padding: 0%;
+  width: 100%;
+  margin: 0;
   box-shadow: 5px 5px 5px rgb(0, 0, 0, .1);
   height: fit-content;
   background: rgb(79, 79, 79);
@@ -48,9 +48,10 @@ h3 {
 }
 
 main {
+  width: 46%;
   margin: 5% 27% 0% 27%;
   z-index: 0;
-  padding: 10% 0% 10% 0%;
+  padding: 0% 0% 5% 0%;
   background: white;
   color: black;
   box-shadow: 6px 5px 5px rgb(0, 0, 0, .1);
@@ -96,8 +97,21 @@ h2 {
 }
 
 #container {
-  width: 60%;
+  width: 100%;
   margin: auto;
+}
+
+#sub-container {
+  padding: 2%;
+  width: 48%
+}
+
+.half-container {
+  display: flex;
+  justify-content: space-between;
+  width: 96%;
+  padding: 2%;
+
 }
 
 li {
