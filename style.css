@@ -73,21 +73,6 @@ main {
   width: 100%;
 }
 
-.sidepane {
-  overflow: scroll;
-  position: fixed;
-  z-index: 2;
-  padding: 5px;
-  background: rgb(79, 79, 79);
-  box-shadow: 5px 3px 5px rgb(0, 0, 0, .2);
-  width: 16%;
-  height: 97%;
-  list-style-type: none;
-  color: lightgray;
-  margin: .5%;
-  text-align: center;
-}
-
 .lineDivider {
   background: lightcyan;
   height: 1;
@@ -103,7 +88,10 @@ main {
   margin: -16% 0% 0% 12%;
   padding: 0 27px 0 0;
 }
-
+.header-r > .half-container {
+  margin-top: 100px;
+  height: 100px;
+}
 .polygon {
   shape-outside: polygon(0 0, 0 120px, 223px 0px);
   width: 106%;
@@ -132,6 +120,7 @@ h2 {
   justify-content: space-between;
   width: 96%;
   padding: 2%;
+  margin-top: 0px;
 }
 
 li {
@@ -319,7 +308,8 @@ h5 {
     width: 100%;
   }
   p {
-    font-size: 2.3vw;
+    font-size: 2.2vw;
+    height: 29vw;
   }
   li {
     font-size: 1.8vw;
@@ -328,7 +318,10 @@ h5 {
     shape-outside: polygon(0 0, 0 16vw, 29vw 0px);
   }
   .header-r > .half-container {
-    margin-top: 30%;
+    margin-top: 4vw;
     height: 88px;
+  }
+  #header {
+    height: 57vw;
   }
 }
