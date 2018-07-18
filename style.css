@@ -105,8 +105,8 @@ main {
 }
 
 .polygon {
-  shape-outside: polygon(0 0, 0 122px, 227px 0px);
-  width: 338px;
+  shape-outside: polygon(0 0, 0 120px, 223px 0px);
+  width: 106%;
   height: 133px;
   float: left;
   opacity: .2;
@@ -132,7 +132,6 @@ h2 {
   justify-content: space-between;
   width: 96%;
   padding: 2%;
-
 }
 
 li {
@@ -307,4 +306,29 @@ h5 {
 .socialIcon img {
   width: 20px;
   margin: 3px;
+}
+
+@media only screen and (max-width: 750px), print {
+  h1 {
+    font-size: 4.5vw;
+  }
+  #dev {
+    font-size: 3.2vw;
+  }
+  main {
+    width: 100%;
+  }
+  p {
+    font-size: 2.3vw;
+  }
+  li {
+    font-size: 1.8vw;
+  }
+  .polygon{
+    shape-outside: polygon(0 0, 0 16vw, 29vw 0px);
+  }
+  .header-r > .half-container {
+    margin-top: 30%;
+    height: 88px;
+  }
 }
