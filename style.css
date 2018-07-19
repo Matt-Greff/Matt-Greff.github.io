@@ -318,8 +318,10 @@ h5 {
 }
 
 .socialIcon img {
-  width: 20px;
+  width: 24px;
+  height: 24px;
   margin: 3px;
+  vertical-align: bottom;
 }
 
 @media only screen and (max-width: 750px), print {
@@ -329,6 +331,7 @@ h5 {
     width: 40vw;
   }
   .socialIcon img {
+    height: 3.5vw;
     width: 3.5vw;
     margin: 3px;
 }
