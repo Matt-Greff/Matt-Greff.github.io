@@ -28,11 +28,16 @@ span li {
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 0px -62px;
-  padding: 5px 0px 10px 40%;
-  width: 60%;
+  padding: 5px 15px 10px;
   margin: 0;
   box-shadow: 5px 5px 5px rgb(0, 0, 0, .1);
   height: 206px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#me {
+  
 }
 
 #dev {
@@ -76,7 +81,7 @@ main {
 }
 
 .lineDivider {
-  background: lightcyan;
+  background: black;
   height: 1;
   width: 65%;
   margin: 0%;
@@ -88,15 +93,26 @@ main {
   width: 311px;
 }
 .header-r {
-  margin: -18% 0% 0% 7%;
-  padding: 0 7px 0 0;
+  margin: 0% 0% 0% 0%;
+  padding: 0px 0 0 9%;
+  width: 100%;
+  line-height: 1.5;
 }
 .header-r > .half-container {
   margin-top: 100px;
   height: 100px;
 }
+
+.header-r > h1 {
+  margin: 0;
+}
+p > strong {
+  font-size: 20px;
+  color:white;
+  line-height: 0;
+}
 .polygon {
-  shape-outside: polygon(0 0, 0 148px, 284px 0px);
+  shape-outside: polygon(0 45px, 0 529px, 124px 0px);
   width: 52%;
   margin-left: 65px;
   height: 176px;
@@ -333,7 +349,7 @@ h5 {
   }
   p {
     font-size: 2.2vw;
-    height: 29vw;
+    line-height: 1.3;
   }
   li {
     font-size: 1.8vw;
@@ -347,6 +363,11 @@ h5 {
   }
   #header {
     height: 29vw;
+    padding-bottom: 0;
     background-position: 0px -7vw;
   }
+  p > strong {
+    font-size: 3.4vw;
+    line-height: 0;
+}
 }
