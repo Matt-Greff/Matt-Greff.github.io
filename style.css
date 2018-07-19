@@ -138,6 +138,9 @@ h2 {
 
 #exp-container {
   width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .half-container {
@@ -170,7 +173,7 @@ li {
   color: black;
 }
 .all-skills {
-  /* background: rgb(79, 79, 79); */
+  background-color: gainsboro;
   display: flex;
   justify-content: space-around;
   padding: 1%;
@@ -179,10 +182,8 @@ li {
 }
 
 .skillDiv {
-  /* color: rgb(255, 255, 255, 0); */
   height: 100%;
-  width: fit-content;
-  /* background: grey; */
+  width: 67px;
   padding: 3px;
   display: flex;
   flex-direction:  column;
