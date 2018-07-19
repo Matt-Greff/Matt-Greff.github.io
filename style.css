@@ -45,7 +45,7 @@ span li {
 h1 {
   color: white;
   font-weight: bold;
-  font-size: 35px;
+  font-size: 31px;
   margin: 0;
   width: fit-content;
   text-align: left;
@@ -165,7 +165,7 @@ li {
 .socialIcon {
   display: flex;
   width: 97px;
-  margin-bottom: 11px;
+  /* margin-bottom: 11px; */
   text-decoration: none;
   color: black;
 }
@@ -321,9 +321,12 @@ a:hover .wiggle {
   line-height: 0px;
 }
 
-a {
+.contact {
   text-decoration: none;
-  color: black;
+  color: grey;
+  background: white;
+  border-radius: 3px;
+  padding: 2px 2px;
 }
 
 h5 {
