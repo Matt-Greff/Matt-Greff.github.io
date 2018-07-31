@@ -15,7 +15,7 @@
       <div id="me">
         <h1>Mattison<br>Greff</h1>
         <div class="typewriter">
-          <h1 id="dev">Web Developer</h1>
+          <h1 id="dev">Jr. Developer</h1>
         </div>
       </div>
       <div class="header-r">
@@ -196,7 +196,30 @@
             </li>
           </div>
         </div>
-        <div class="half-container">
+        <div class="half-container" style="align-self: flex-end">
+            
+          <div id="web-ref">
+            <form method="get" action="mattg-resume.pdf" style="width: fit-content; margin: 2px">
+              <a href="https://bit.ly/g-matt" style="line-height: 1.5; text-align: end;" id="url">https://bit.ly/g-matt</a> <br>
+              <input type="submit" class="btn btn-success web" value="Save PDF">
+              <input id="copy" type="button" value="Copy" class="btn btn-secondary web"/>
+            </form>
+          </div>
+          <script>
+            const button = document.getElementById('copy');
+            button.addEventListener('click', function(e) {
+
+              const text      = document.getElementById('url')
+              const selection = window.getSelection();        
+              const range     = document.createRange();
+
+              range.selectNodeContents(text);
+              selection.removeAllRanges();
+              selection.addRange(range);
+              e.preventDefault();
+                document.execCommand('copy');
+              });
+          </script>
         </div>
       </div>
     </div>
